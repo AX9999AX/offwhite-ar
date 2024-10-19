@@ -132,9 +132,14 @@ export default function Home() {
           height={500}
           className="w-full h-auto"
         />
-        <p className="mt-2 text-[24px] font-bold leading-[20px] text-center text-[#024BAD]">
-          EXample QR AR
-        </p>
+        <div className="flex justify-center">
+          <a
+            href="https://ar-code.com/mw3QkGasX?view=webar"
+            className="text-[24px] font-bold leading-[20px] text-center text-[#024BAD]"
+          >
+            Example QR
+          </a>
+        </div>
       </div>
     </>
   );
