@@ -124,6 +124,18 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <div className="my-10">
+        <Image
+          src="/img/qr.png"
+          alt="QR"
+          width={500}
+          height={500}
+          className="w-full h-auto"
+        />
+        <p className="mt-2 text-[24px] font-bold leading-[20px] text-center text-[#024BAD]">
+          EXample QR AR
+        </p>
+      </div>
     </>
   );
 }
